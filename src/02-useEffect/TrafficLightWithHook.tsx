@@ -1,7 +1,7 @@
 import { useTrafficLight } from "../hooks/useTrafficLight";
 
 export const TrafficLightWithHook = () => {
-  const { countdown, light, percentage, greenLight, redLight, yellowLight } =
+  const { countdown, percentage, greenLight, redLight, yellowLight } =
     useTrafficLight();
 
   return (
